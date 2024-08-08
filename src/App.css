@@ -1,0 +1,148 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.sidebar {
+  width: 40%;
+  text-align: left;
+  height: 90vh; 
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.main {
+  display: flex;
+  text-align: left;
+  width: 50%;
+  height: 200vh;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+body {
+  padding: 3%;
+  background-color: linear-gradient(90deg, rgba(103,103,103,1) 20%, rgba(0,0,0,1) 100%);
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+code, pre {
+  background-color: #ccc;
+  padding: 0 3px;
+  border-radius: 5px;
+}
+
+.bottom {
+  justify-self: bottom;
+}
+
+.introduction {
+  padding-bottom: 3%;
+}
+
+.subdiv{
+  min-height: 100px;
+  /* background: rgba(255, 255, 255, 0.1); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 20px;
+  
+}
+.subdiv:hover{
+  background: rgba(255, 255, 255, 0.1);
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+  backdrop-filter: blur(20px);
+  
+  /* transform: scale(1.05); */
+}
+
+.icon {
+  color: white;
+  font-size: 40px; /* Adjust size as needed */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+  color: #f50057; /* Change color on hover */
+  transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+  /* padding: 8px; */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link.active {
+  color: #00F59E;;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: #f50057;
+  transform: scale(1.2)
+}
