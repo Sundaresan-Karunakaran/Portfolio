@@ -4,6 +4,7 @@ import Skills from './Skills'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
+    
 const MainPage: React.FC = () => {
 
     const sectionRefs = useRef<(HTMLElement | null)[]>([]);
@@ -78,6 +79,7 @@ const MainPage: React.FC = () => {
                     <h3>Software Engineer</h3>
                     <h5>With a passion for anything computer</h5>
                 </div>
+                <img className="nav-link" src='src/IMG_20240808_111841_731.jpg' alt='Sundaresan Karunakaran Photo' style={{borderRadius:'30%', paddingTop:'10%'}} width="300" height="400"/>
                 <div style={{display:'flex',flexDirection:'column', padding:'10%'}}>
                     <a href="#introduction"  className="nav-link">About me</a>
                     <a href="#workexperience" className="nav-link">Work Experience</a>
